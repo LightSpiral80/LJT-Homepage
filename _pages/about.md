@@ -24,14 +24,6 @@ I am Junteng Liu, a first-year PhD candidate at the HKUST NLP Group. I graduated
 - **Research Intern**, Tencent WXG (June 2024–September 2024). Advisor: Zifei Shan.
 - **Research Intern**, Shanghai AI Lab (June 2023–December 2023). Advisor: Prof. Yu Cheng.
 
-## Skills and Research Interests
-
-- Natural Language Processing
-- Machine Learning
-- LLM Reasoning and Reinforcement Learning
-- Hallucination in Vision-Language Models (VLM)
-- LLM Truthfulness and Interpretability
-
 ## Publications
 
 ### 2025
@@ -48,6 +40,14 @@ I am Junteng Liu, a first-year PhD candidate at the HKUST NLP Group. I graduated
 
 5. **C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models** (NeurIPS 2023). Authors: Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, Junteng Liu, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, Junxian He.
 6. **Composing Parameter-Efficient Modules with Arithmetic Operations** (NeurIPS 2023). Authors: Jinghan Zhang, Shiqi Chen, Junteng Liu, Junxian He.
+
+## Skills and Research Interests
+
+- Natural Language Processing
+- Machine Learning
+- LLM Reasoning and Reinforcement Learning
+- Hallucination in Vision-Language Models (VLM)
+- LLM Truthfulness and Interpretability
 
 ## Contact Information
 
