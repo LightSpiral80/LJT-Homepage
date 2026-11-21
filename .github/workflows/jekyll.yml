@@ -15,6 +15,17 @@ jobs:
         with:
           ruby-version: '3.1'
       - run: bundle install --jobs 4 --retry 3
-      - run: bundle exec jekyll build --baseurl "/LJT-Homepage"
+      - name: Build site
+        run: bundle exec jekyll build --baseurl "/LJT-Homepage"
         env:
           JEKYLL_ENV: production
+      - name: Verify required content
+        run: |
+          test -f _site/index.html
+          test -f _site/publications/index.html
+          grep -q "Junteng Liu" _site/index.html
+          grep -q "jliugi@connect.ust.hk" _site/index.html
+          grep -q "SynLogic" _site/index.html
+          grep -q "C-Eval" _site/index.html
+          grep -q "SynLogic" _site/publications/index.html
+          grep -q "NeurIPS 2023" _site/publications/index.html
